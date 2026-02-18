@@ -49,9 +49,9 @@
         sym_layer {  // SYM 2
 		      	display-name = "SYM";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans		&trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans		&trans  &trans  &trans  &trans  &trans
-		&trans  &trans  &trans  &trans  &trans		&trans  &trans  &trans  &trans  &trans
+&trans        &kp GRAVE   &kp AMPERSAND &kp ASTERISK  &trans       &trans        &kp SINGLE_QUOTE   &kp LPAR    &kp RPAR    &kp BACKSLASH   &kp PIPE
+&trans        &kp TILDE   &kp DOLLAR    &kp PERCENT   &kp CARET    &trans        &kp DOUBLE_QUOTES  &kp LBRC    &kp RBRC    &kp LBKT        &kp RBKT
+              &trans      &kp EXCL      &kp AT        &kp HASH     &trans        &trans             &kp MINUS   &kp UNDER   &kp EQUAL       &kp PLUS
                            &trans &trans &trans &trans                           &trans &trans &trans &trans
                                   &trans                                                       &trans
             >;
