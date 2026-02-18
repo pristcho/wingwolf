@@ -119,8 +119,12 @@ display_i2c: &i2c0 {
 	};
 };
 
+
+
+
 / {
   chosen {
+	zmk,physical-layout = &physical_layout0;
     zephyr,display = &oled;
   };
 };
