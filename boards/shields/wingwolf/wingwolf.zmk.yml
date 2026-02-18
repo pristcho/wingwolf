@@ -1,0 +1,12 @@
+file_format: "1"
+id: wingwolf
+name: Wingwolf
+type: shield
+url: https://github.com/pristcho/wingwolf
+requires: 
+  - pro_micro
+exposes:
+  - i2c_oled
+features:
+  - keys
+  - display
