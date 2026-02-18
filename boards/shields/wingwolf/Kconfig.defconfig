@@ -1,0 +1,4 @@
+if SHIELD_WINGWOLF
+ config ZMK_KEYBOARD_NAME
+  default "WINGWOLF"
+endif
